@@ -1,12 +1,12 @@
 var mergingTooltipSlider = document.getElementById('merging-tooltips');
 
 noUiSlider.create(mergingTooltipSlider, {
-    start: [20, 90],
+    start: [62000, 200000],
     connect: true,
     tooltips: [true, true],
     range: {
-        'min': 0,
-        'max': 100
+        'min': 12000,
+        'max': 250000
     }
 });
 
