@@ -1513,12 +1513,16 @@ footer {
 .podlazie {
     width: 100%;
     margin-top: 112px;
-    padding: 80px;
+	position: relative;
+	padding: 0 56px;
 
     &-container {
         width: 100%;
         display: flex;
         justify-content: space-between;
+		background-color: $secondary-color;
+		padding: 120px;
+		position: relative;
     }
 
     &-hero-content {
