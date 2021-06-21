@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		tooltips: [true, true],
 		format: wNumb({
 			decimals: 0,
-			suffix: ' €'
+			suffix: ' €',
+			thousand: ' '
 		}),
 
 		range: {
@@ -37,7 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		tooltips: [true, true],
 		format: wNumb({
 			decimals: 0,
-			suffix: ' m²'
+			suffix: ' m²',
+			thousand: ' '
 		}),
 
 		range: {
@@ -56,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		snapValuesArea[handle].setAttribute("value", values[handle]);
 	});
 
-
 	if (document.getElementById('splide')) {
 		new Splide('#splide', {
 			type: 'loop',
@@ -66,4 +67,72 @@ document.addEventListener('DOMContentLoaded', function () {
 			},
 		}).mount();
 	}
+
+	if (document.getElementById('vizualizacia')) {
+		const p1 = document.getElementById("p1");
+		const p2 = document.getElementById("p2");
+		const p3 = document.getElementById("p3");
+		const p4 = document.getElementById("p4");
+		const p5 = document.getElementById("p5");
+		const p6 = document.getElementById("p6");
+		const p7 = document.getElementById("p7");
+		const p1Tooltip = document.getElementById("p1-tooltip");
+		const p2Tooltip = document.getElementById("p2-tooltip");
+		const p3Tooltip = document.getElementById("p3-tooltip");
+		const p4Tooltip = document.getElementById("p4-tooltip");
+		const p5Tooltip = document.getElementById("p5-tooltip");
+		const p6Tooltip = document.getElementById("p6-tooltip");
+		const p7Tooltip = document.getElementById("p7-tooltip");
+		const generalTooltip = document.querySelectorAll(".tooltip");
+
+		p1.addEventListener("mouseover", function (event) {
+			for (var i = 0; i < generalTooltip.length; i++) {
+				generalTooltip[i].classList.remove('active');
+			}
+			p1Tooltip.classList.add("active");
+		});
+
+		p2.addEventListener("mouseover", function (event) {
+			for (var i = 0; i < generalTooltip.length; i++) {
+				generalTooltip[i].classList.remove('active');
+			}
+			p2Tooltip.classList.add("active");
+		});
+
+		p3.addEventListener("mouseover", function (event) {
+			for (var i = 0; i < generalTooltip.length; i++) {
+				generalTooltip[i].classList.remove('active');
+			}
+			p3Tooltip.classList.add("active");
+		});
+
+		p4.addEventListener("mouseover", function (event) {
+			for (var i = 0; i < generalTooltip.length; i++) {
+				generalTooltip[i].classList.remove('active');
+			}
+			p4Tooltip.classList.add("active");
+		});
+
+		p5.addEventListener("mouseover", function (event) {
+			for (var i = 0; i < generalTooltip.length; i++) {
+				generalTooltip[i].classList.remove('active');
+			}
+			p5Tooltip.classList.add("active");
+		});
+
+		p6.addEventListener("mouseover", function (event) {
+			for (var i = 0; i < generalTooltip.length; i++) {
+				generalTooltip[i].classList.remove('active');
+			}
+			p6Tooltip.classList.add("active");
+		});
+
+		p7.addEventListener("mouseover", function (event) {
+			for (var i = 0; i < generalTooltip.length; i++) {
+				generalTooltip[i].classList.remove('active');
+			}
+			p7Tooltip.classList.add("active");
+		});
+	}
+
 });

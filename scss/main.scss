@@ -457,6 +457,148 @@ body {
         width: 100%;
     }
 
+    &-content {
+        position: relative;
+    }
+
+    .tooltip {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        padding: 32px;
+
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity .2s linear;
+
+        &.active {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        h5 {
+            font-family: $medium-font;
+            font-size: 2em;
+
+            strong {
+                color: rgba(0, 0, 0, 0.2);
+                font-size: 4em;
+                margin-right: 16px;
+            }
+        }
+
+        a {
+            font-family: $medium-font;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            transition: all .2s ease-in-out;
+
+            img {
+                width: 100%;
+                max-width: 20px;
+                max-width: 15px;
+                margin-left: 16px;
+            }
+
+            &:hover {
+                opacity: .6;
+            }
+        }
+
+        .table {
+            width: 100%;
+            margin-bottom: 40px;
+
+            .row {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 1.4em;
+                margin: 12px 0;
+            }
+
+            span {
+                font-family: $light-font;
+            }
+
+            strong {
+                font-family: $bold-font;
+            }
+        }
+
+        &::before {
+            content: url('../img/tooltip-popup-arrow.svg');
+            position: absolute;
+            left: -26px;
+
+        }
+    }
+
+    #p1-tooltip {
+        right: 3%;
+        bottom: 6%;
+
+        &::before {
+            bottom: 50px;
+        }
+    }
+
+    #p2-tooltip {
+        right: 3%;
+        bottom: 14%;
+
+        &::before {
+            bottom: 50px;
+        }
+    }
+
+    #p3-tooltip {
+        right: 3%;
+        bottom: 23%;
+
+        &::before {
+            bottom: 50px;
+        }
+    }
+
+    #p4-tooltip {
+        right: 3%;
+        bottom: 31%;
+
+        &::before {
+            bottom: 50px;
+        }
+    }
+
+    #p5-tooltip {
+        right: 3%;
+        bottom: 1%;
+
+        &::before {
+            top: 50px;
+        }
+    }
+
+    #p6-tooltip {
+        right: 3%;
+        bottom: 9%;
+
+        &::before {
+            top: 50px;
+        }
+    }
+
+    #p7-tooltip {
+        right: 3%;
+        bottom: 16%;
+
+        &::before {
+            top: 50px;
+        }
+    }
+
     #p1,
     #p2,
     #p3,
@@ -497,6 +639,12 @@ body {
 .home-about {
     background-color: $secondary-color;
 
+    &-content-wrapper {
+        width: 100%;
+        max-width: 1340px;
+        margin: 0 auto;
+    }
+
     &-content {
         background-image: url('../img/about-bg-logo.svg');
         background-repeat: no-repeat;
@@ -511,8 +659,8 @@ body {
             background-image: url('../img/about-building.png');
             background-repeat: no-repeat;
             background-size: 30%;
-            background-position: right center;
-            padding: 100px 56px;
+            background-position: right top;
+            padding: 100px 56px 200px 56px;
         }
 
         h3 {
@@ -681,6 +829,13 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
+
+        &::before {
+            content: url('../img/main-form-content-bg.svg');
+            position: absolute;
+            right: 20%;
+        }
     }
 
     h3 {
@@ -910,7 +1065,25 @@ body {
 .home-developer {
     width: 100%;
     background-color: $secondary-color;
-    padding-top: 80px;
+
+    &-bars {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        &-one {
+            background: #fff;
+            height: 100px;
+            width: 25%;
+        }
+
+        &-two {
+            background: #fff;
+            height: 100px;
+            width: 10%;
+        }
+    }
 
     &-content {
         width: 100%;
@@ -998,12 +1171,40 @@ body {
 
 .main-form {
     width: 100%;
-    display: flex;
     background-color: $secondary-color;
-    padding: 96px 56px;
+
+    &-bars {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        &-one {
+            background: #fff;
+            height: 100px;
+            width: 25%;
+        }
+
+        &-two {
+            background: #fff;
+            height: 100px;
+            width: 10%;
+        }
+    }
+
+    &-container {
+        display: flex;
+        max-width: 1340px;
+        margin: 0 auto;
+        padding: 0 56px 96px 56px;
+    }
 
     &-content {
         width: 40%;
+        background-image: url('../img/main-form-content-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 450px;
 
         h3 {
             font-family: $medium-font;
@@ -1115,6 +1316,7 @@ body {
             width: 50%;
             display: flex;
             align-items: center;
+            cursor: pointer;
 
             .main-form-gdpr-controller {
                 width: 25px;
@@ -1257,6 +1459,7 @@ body {
 footer {
     width: 100%;
     background-color: $footer-color;
+    padding: 80px;
 
     .content {
         width: 100%;
@@ -1270,6 +1473,7 @@ footer {
         strong {
             font-family: $medium-font;
             color: #fff;
+            font-size: 1.4em;
         }
 
         nav {
@@ -1278,15 +1482,26 @@ footer {
 
         ul {
             width: 100%;
+            display: flex;
+            flex-flow: row wrap;
         }
 
         li {
             width: 100%;
+            margin: 16px 0;
+        }
+
+        #sitemap-footer-nav {
+            li {
+                width: 40%;
+                margin-right: 32px;
+            }
         }
 
         a {
             color: rgba(#fff, .5);
             transition: all .2s ease-in-out;
+            font-size: 1.1em;
 
             &:hover {
                 color: rgba(#fff, 1);
@@ -1427,9 +1642,7 @@ footer {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-top: 112px;
-    padding: 80px;
 
     img {
         width: 100%;
@@ -1465,7 +1678,7 @@ footer {
 
         .tag {
             width: 100%;
-			display: flex;
+            display: flex;
 
             .availability {
                 width: 50%;
@@ -1480,12 +1693,57 @@ footer {
 
             .price {
                 width: 50%;
-				display: flex;
-flex-direction: column;
+                display: flex;
+                flex-direction: column;
 
                 span {
                     font-family: $medium-font;
                 }
+            }
+        }
+    }
+}
+
+.copyright {
+    width: 100%;
+    background-color: $footer-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+
+    p {
+        color: rgba(#fff, .5);
+        font-size: 1.1em;
+    }
+
+    .socials {
+        background: #fff;
+        display: flex;
+        padding: 40px 140px;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            color: #000;
+            margin-right: 56px;
+            display: flex;
+            align-items: center;
+        }
+
+        a {
+            display: block;
+            transition: all .2s ease-in-out;
+            margin: 0 16px;
+
+            img {
+                width: 100%;
+                max-width: 24px;
+                max-height: 24px;
+            }
+
+            &:hover {
+                opacity: .6;
             }
         }
     }
