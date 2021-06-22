@@ -1,45 +1,8 @@
-// FONTS IMPORT
-@font-face {
-    font-family: 'alegreya_sansmedium';
-    src: url('../fonts/alegreyasans-medium-webfont.woff2') format('woff2'),
-        url('../fonts/alegreyasans-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'alegreya_sansbold';
-    src: url('../fonts/alegreyasans-bold-webfont.woff2') format('woff2'),
-        url('../fonts/alegreyasans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'alegreya_sanslight';
-    src: url('../fonts/alegreyasans-light-webfont.woff2') format('woff2'),
-        url('../fonts/alegreyasans-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'alegreya_sansregular';
-    src: url('../fonts/alegreyasans-regular-webfont.woff2') format('woff2'),
-        url('../fonts/alegreyasans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 // FONTS
-$bold-font: 'alegreya_sansbold';
-$medium-font: 'alegreya_sansmedium';
-$regular-font: 'alegreya_sansregular';
-$light-font: 'alegreya_sanslight';
+$bold-font: 700;
+$medium-font: 500;
+$regular-font: 400;
+$light-font: 300;
 
 // COLORS
 $primary-color: #D8CFBC;
@@ -96,13 +59,13 @@ ol {
 }
 
 body {
-    font-family: $regular-font;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 100%;
 }
 
 // MAIN HEADER
 .free-color {
-	color: $free-color;
+    color: $free-color;
 }
 
 .main-header {
@@ -162,7 +125,7 @@ body {
     }
 
     &-cta {
-        font-family: $medium-font;
+        font-weight: $medium-font;
         font-size: 1.1em;
         display: flex;
 
@@ -193,6 +156,29 @@ body {
 
     position: relative;
 
+	.scroll-down-element {
+		position: absolute;
+		right: 100px;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		a {
+			margin-bottom: 32px;
+			transition: all .2s ease-in-out;
+
+			&:hover {
+				opacity: .6;
+			}
+		}
+
+		.line {
+			margin-bottom: -191.5px;
+		}
+	}
+
     &-container {
         background-color: rgba(#000, .4);
         width: 100%;
@@ -210,13 +196,13 @@ body {
 
         h1 {
             color: #fff;
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 5em;
             line-height: 80px;
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             color: #fff;
             max-width: 500px;
             font-size: 1.2em;
@@ -229,7 +215,7 @@ body {
         padding: 20px 56px;
         margin-left: 124px;
         background: $primary-color;
-        font-family: $medium-font;
+        font-weight: $medium-font;
         transition: all .2s ease-in-out;
 
         &:hover {
@@ -288,7 +274,7 @@ body {
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             max-width: 650px;
             font-size: 1.2em;
         }
@@ -314,7 +300,7 @@ body {
         max-width: 100%;
 
         strong {
-            font-family: $medium-font;
+            font-weight: $medium-font;
         }
 
         &-checkbox-label {
@@ -324,7 +310,7 @@ body {
 
         &-checkbox-control {
             border: 1px solid #000;
-            font-family: $light-font;
+            font-weight: $light-font;
             padding: 20px 28px;
             font-size: 2em;
             transition: all .2s ease-in-out;
@@ -345,7 +331,7 @@ body {
         }
 
         strong {
-            font-family: $regular-font;
+            font-weight: $regular-font;
             font-size: 1.2em;
 
             &.paddingtop {
@@ -377,7 +363,7 @@ body {
             padding: 20px 56px;
             margin-left: auto;
             margin-top: 100px;
-            font-family: $medium-font;
+            font-weight: $medium-font;
 
             &:hover {
                 background: $hover-color;
@@ -471,6 +457,7 @@ body {
         bottom: 0;
         background: #fff;
         padding: 32px;
+		padding-top: 0;
 
         visibility: hidden;
         opacity: 0;
@@ -482,19 +469,20 @@ body {
         }
 
         h5 {
-            font-family: $medium-font;
-            font-size: 2em;
+            font-weight: $medium-font;
+            font-size: 1.7em;
 
             strong {
                 color: rgba(0, 0, 0, 0.2);
-                font-size: 4em;
+                font-size: 3em;
                 margin-right: 16px;
+				font-weight: $medium-font;
             }
         }
 
         a {
-            font-family: $medium-font;
-            font-size: 1.5em;
+            font-weight: $medium-font;
+            font-size: 1.2em;
             display: flex;
             align-items: center;
             transition: all .2s ease-in-out;
@@ -519,16 +507,16 @@ body {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
-                font-size: 1.4em;
+                font-size: 1.2em;
                 margin: 12px 0;
             }
 
             span {
-                font-family: $light-font;
+                font-weight: $light-font;
             }
 
             strong {
-                font-family: $bold-font;
+                font-weight: $bold-font;
             }
         }
 
@@ -668,16 +656,16 @@ body {
         }
 
         h3 {
-            font-family: $light-font;
+            font-weight: $light-font;
             font-size: 3em;
 
             strong {
-                font-family: $medium-font;
+                font-weight: $medium-font;
             }
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             max-width: 750px;
             margin-top: 56px;
         }
@@ -716,7 +704,7 @@ body {
         }
 
         span {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             margin-top: 32px;
         }
     }
@@ -725,7 +713,7 @@ body {
         background-color: $primary-color;
         padding: 20px 56px;
         transition: all .2s ease-in-out;
-        font-family: $medium-font;
+        font-weight: $medium-font;
         margin: 56px auto 0 auto;
 
         &:hover {
@@ -762,12 +750,12 @@ body {
             margin: 24px 0;
 
             strong {
-                font-family: $bold-font;
+                font-weight: $bold-font;
                 font-size: 5em;
             }
 
             span {
-                font-family: $light-font;
+                font-weight: $light-font;
                 font-size: 1.1em;
                 max-width: 170px;
                 margin: 16px 0 0 16px;
@@ -843,7 +831,7 @@ body {
     }
 
     h3 {
-        font-family: $medium-font;
+        font-weight: $medium-font;
         font-size: 3em;
         max-width: 500px;
     }
@@ -853,14 +841,14 @@ body {
         flex-direction: column;
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             max-width: 500px;
             font-size: 1.1em;
             margin-top: 40px;
         }
 
         a {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             display: flex;
             align-items: center;
             font-size: 1.2em;
@@ -917,7 +905,7 @@ body {
         }
 
         span {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             margin-top: 32px;
             max-width: 150px;
             text-align: center;
@@ -972,19 +960,19 @@ body {
         align-items: center;
 
         strong {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 1.6em;
         }
 
         span {
             color: $primary-color;
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 1.7em;
             margin: 8px 0;
         }
 
         small {
-            font-family: $light-font;
+            font-weight: $light-font;
             font-size: 1.1em;
         }
 
@@ -1029,12 +1017,12 @@ body {
         justify-content: center;
 
         h2 {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 3em;
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             font-size: 1.1em;
             max-width: 480px;
             margin: 56px 0;
@@ -1049,7 +1037,7 @@ body {
                 background: $primary-color;
                 transition: all .2s ease-in-out;
                 padding: 20px 56px;
-                font-family: $medium-font;
+                font-weight: $medium-font;
                 width: 48%;
                 text-align: center;
 
@@ -1102,16 +1090,16 @@ body {
         margin: 0 80px;
 
         h3 {
-            font-family: $light-font;
+            font-weight: $light-font;
             font-size: 3em;
 
             strong {
-                font-family: $medium-font;
+                font-weight: $medium-font;
             }
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             font-size: 1.1em;
             max-width: 850px;
         }
@@ -1147,13 +1135,13 @@ body {
         padding-bottom: 80px;
 
         h3 {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 3em;
             text-align: center;
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             font-size: 1.1em;
             text-align: center;
             max-width: 500px;
@@ -1211,14 +1199,14 @@ body {
         background-size: 450px;
 
         h3 {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 4em;
             max-width: 400px;
             margin-bottom: 64px;
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             max-width: 370px;
         }
     }
@@ -1254,6 +1242,12 @@ body {
             padding: 20px 0;
             margin: 24px 0;
             background: transparent;
+			transition: all .2s ease-in-out;
+
+			&:focus{
+				outline: none;
+				border-bottom: 1px solid $primary-color;
+			}
         }
 
         textarea {
@@ -1351,7 +1345,7 @@ body {
             transition: all .2s ease-in-out;
             border: none;
             padding: 20px 56px;
-            font-family: $medium-font;
+            font-weight: $medium-font;
 
             &:hover {
                 background: $hover-color;
@@ -1376,12 +1370,12 @@ body {
         width: 50%;
 
         h4 {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 2em;
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             width: 370px;
             margin-top: 16px;
             font-size: 1.1em;
@@ -1403,6 +1397,13 @@ body {
             padding-bottom: 20px;
             margin: 24px 0;
             background: transparent;
+
+			transition: all .2s ease-in-out;
+
+			&:focus{
+				outline: none;
+				border-bottom: 1px solid $primary-color;
+			}
         }
 
         button {
@@ -1475,7 +1476,7 @@ footer {
         width: 25%;
 
         strong {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             color: #fff;
             font-size: 1.4em;
         }
@@ -1536,13 +1537,13 @@ footer {
         max-width: 530px;
 
         h1 {
-            font-family: $medium-font;
+            font-weight: $medium-font;
             font-size: 3em;
             margin: 0;
         }
 
         p {
-            font-family: $light-font;
+            font-weight: $light-font;
             margin: 56px 0;
         }
 
@@ -1551,7 +1552,7 @@ footer {
             background: $primary-color;
             transition: all .2s ease-in-out;
             padding: 20px 56px;
-            font-family: $medium-font;
+            font-weight: $medium-font;
             align-self: flex-start;
 
             &:hover {
@@ -1566,7 +1567,7 @@ footer {
         max-width: 400px;
 
         h2 {
-            font-family: $medium-font;
+            font-weight: $medium-font;
 
             strong {
                 color: rgba(#000, .4);
@@ -1584,11 +1585,11 @@ footer {
             font-size: 1.3em;
 
             span {
-                font-family: $light-font;
+                font-weight: $light-font;
             }
 
             strong {
-                font-family: $bold-font
+                font-weight: $bold-font
             }
         }
     }
@@ -1606,11 +1607,11 @@ footer {
             width: 50%;
 
             h2 {
-                font-family: $medium-font;
+                font-weight: $medium-font;
             }
 
             small {
-                font-family: $light-font;
+                font-weight: $light-font;
             }
 
             .table {
@@ -1623,11 +1624,11 @@ footer {
                 }
 
                 strong {
-                    font-family: $medium-font;
+                    font-weight: $medium-font;
                 }
 
                 span {
-                    font-family: $regular-font;
+                    font-weight: $regular-font;
                 }
             }
         }
@@ -1637,7 +1638,7 @@ footer {
             background: $primary-color;
             transition: all .2s ease-in-out;
             padding: 20px 56px;
-            font-family: $medium-font;
+            font-weight: $medium-font;
 
             &:hover {
                 background: $hover-color;
@@ -1662,20 +1663,20 @@ footer {
         max-width: 500px;
 
         h1 {
-            font-family: $medium-font;
+            font-weight: $medium-font;
         }
 
         .row {
             small {
-                font-family: $light-font;
+                font-weight: $light-font;
             }
 
             a {
-                font-family: $medium-font;
+                font-weight: $medium-font;
             }
 
             span {
-                font-family: $regular-font;
+                font-weight: $regular-font;
             }
         }
 
@@ -1705,7 +1706,7 @@ footer {
                 flex-direction: column;
 
                 span {
-                    font-family: $medium-font;
+                    font-weight: $medium-font;
                 }
             }
         }
@@ -1776,7 +1777,7 @@ footer {
             }
 
             td {
-                font-family: $light-font;
+                font-weight: $light-font;
                 text-align: center;
                 font-size: 1.2em;
                 padding: 32px 0;
@@ -1790,7 +1791,7 @@ footer {
 
             .static-part {
                 td {
-                    font-family: $medium-font;
+                    font-weight: $medium-font;
                     font-size: 1.3em;
                 }
             }
@@ -1837,12 +1838,12 @@ footer {
     }
 
     h2 {
-        font-family: $medium-font;
+        font-weight: $medium-font;
         font-size: 3em;
     }
 
     p {
-        font-family: $light-font;
+        font-weight: $light-font;
         margin: 56px 0 80px 0;
         max-width: 500px;
     }
@@ -1852,7 +1853,7 @@ footer {
         background: $primary-color;
         transition: all .2s ease-in-out;
         padding: 20px 56px;
-        font-family: $medium-font;
+        font-weight: $medium-font;
 
         &:hover {
             background: $hover-color;
@@ -1866,7 +1867,7 @@ footer {
     margin: 112px auto 0 auto;
 
     h2 {
-        font-family: $medium-font;
+        font-weight: $medium-font;
         font-size: 3.5em;
         margin: 56px;
     }
@@ -1894,3 +1895,61 @@ footer {
         }
     }
 }
+
+.splide__pagination {
+	bottom: -52px;
+	left: 0;
+	transform: unset;
+	padding: 48px 100px;
+	background-color: $primary-color;
+  }
+
+  .splide__pagination {
+	width: 60%;
+	justify-content: flex-start;
+	bottom: -60px;
+	padding: 56px 100px;
+  }
+
+  .splide__pagination__page {
+	width: 50px;
+	background: rgba(255,255,255,.3);
+	border-radius: 0;
+	margin: 0 16px;
+	transition: all .2s ease-in-out;
+  }
+
+  .splide__pagination__page.is-active {
+	transform: scale(1);
+  }
+
+  .splide__pagination li {
+	display: inline-flex;
+	align-items: center;
+  }
+
+.splide__arrow {
+	top: unset;
+	transform: unset;
+	width: 30px;
+	height: 30px;
+	background: unset;
+	bottom: 0;
+	transform: translate(0, 50%);
+	transition: all .2s ease-in-out;
+  }
+
+  .splide__arrow--prev {
+	left: 50%;
+	margin-left: -25px;
+  }
+
+  .splide__arrow--next {
+	right: 50%;
+	margin-right: -50px;
+  }
+
+  .splide__arrows {
+	position: relative;
+	z-index: 3;
+  }
