@@ -8,11 +8,17 @@ document.addEventListener('DOMContentLoaded', function () {
 			step: 10000,
 			tooltips: [true, true],
 			format: wNumb({
-				decimals: 0,
-				suffix: ' €',
-				thousand: ' '
+				decimals: 0
 			}),
-
+			tooltips: [wNumb({
+				suffix: " &euro;",
+				decimals: 0,
+				thousand: ' '
+			}), wNumb({
+				suffix: " &euro;",
+				decimals: 0,
+				thousand: ' '
+			})],
 			range: {
 				'min': 12000,
 				'max': 250000
@@ -38,10 +44,17 @@ document.addEventListener('DOMContentLoaded', function () {
 			step: 10,
 			tooltips: [true, true],
 			format: wNumb({
-				decimals: 0,
-				suffix: ' m²',
-				thousand: ' '
+				decimals: 0
 			}),
+			tooltips: [wNumb({
+				suffix: "  m²",
+				decimals: 0,
+				thousand: ' '
+			}), wNumb({
+				suffix: "  m²",
+				decimals: 0,
+				thousand: ' '
+			})],
 
 			range: {
 				'min': 50,
@@ -143,4 +156,3 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 });
- 
