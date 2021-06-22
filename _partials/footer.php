@@ -78,6 +78,7 @@
 	<script src="./js/nouislider.min.js"></script>
 	<script src="./js/wNumb.min.js"></script>
 	<script src="./js/splide.min.js"></script>
+	<script src="./js/simple-lightbox.min.js"></script>
 	<script src="./js/script.js"></script>
 </body>
 

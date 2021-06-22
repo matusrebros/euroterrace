@@ -28,77 +28,7 @@
 
 	<?php require_once '_partials/visualization.php'; ?>
 	<?php require_once '_partials/filters.php'; ?>
-
-	<section class="home-about">
-		<div class="home-about-content">
-			<div class="home-about-content-container">
-				<div class="home-about-content-wrapper">
-					<h3>Projekt <strong>EUROTERRACE</strong> je situovaný<br><strong>v Žiline</strong> na hranici
-						najväčšieho sídliska<br>Vlčince, hneď vedľa areálu Žilinskej<br>univerzity a <strong>obľúbenej
-							zóny
-							Bôrik</strong>.</h3>
-					<p>Projekt má ambíciu prispieť k dotvoreniu ulice Vysokoškolákov a posilniť tak chýbajúce pešie
-						prepojenie s Obchodnou ulicou a to priechodom cez interiér budovy. Projekt dokonale kombinuje to
-						najlepšie zo sveta rezidenčného bývania a maloobchodu. Návštevníci a obyvatelia projektu
-						EUROTERRACE
-						budú čerpať najmä z rozvinutej infraštruktúry lokality, ktorá zahŕňa školy, škôlky, parky a v
-						neposlednom rade prístup k maloobchodným službám na dosah ruky.</p>
-				</div>
-			</div>
-			<div class="home-about-icons">
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/005-weather.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Zdravé kúrenie</span>
-				</div>
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/004-bacteria.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Bývajte zdravo bez plesní a alergií</span>
-				</div>
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/003-layers.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Hliníkové okná s trojsklom</span>
-				</div>
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/006-leaves.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Využiteľná zeleň</span>
-				</div>
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/008-plans.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Priemyselné
-						dispozície</span>
-				</div>
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/007-team.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Občianska vybavenosť</span>
-				</div>
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/002-parking.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Dostatok parkovania</span>
-				</div>
-				<div class="home-about-icon">
-					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/001-store.svg" alt="Euroterrace Icons">
-					</div>
-					<span>Veľké pivničné kobky</span>
-				</div>
-			</div>
-			<a href="#">O Projekte</a>
-		</div>
-	</section>
+	<?php require_once '_partials/about.php'; ?>
 
 	<section class="home-counter">
 		<div class="home-counter-content">
@@ -280,44 +210,9 @@
 		</div>
 	</section>
 
-	<section class="home-news">
-		<div class="home-news-container">
-			<div class="home-news-content">
-				<h2>Novinky</h2>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-				<div class="buttons">
-					<a href="#">Viac</a>
-					<a href="#">Odoberať novinky</a>
-				</div>
-			</div>
-			<img src="./img/novinky-img.jpg" alt="Euroterrace">
-		</div>
-	</section>
 
-	<section class="home-developer">
-		<div class="home-developer-bars">
-			<div class="home-developer-bars-one"></div>
-			<div class="home-developer-bars-two"></div>
-		</div>
-		<div class="home-developer-content">
-			<div class="home-developer-container">
-				<h3>Developer projektu <strong>EUROTERRACE</strong><br>situovaného <strong>v Žiline</strong>.</h3>
-				<img class="utosia-logo" src="./img/utosia-logo.jpg" alt="Utosia logo">
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-					dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-					sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-					est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
-			</div>
-			<div class="home-developer-gallery">
-				<img src="./img/developer-gallery-img.jpg" alt="Developer gallery image">
-				<img src="./img/developer-gallery-img.jpg" alt="Developer gallery image">
-				<img src="./img/developer-gallery-img.jpg" alt="Developer gallery image">
-			</div>
-		</div>
-	</section>
-
+	<?php require_once '_partials/novinky.php'; ?>
+	<?php require_once '_partials/developer.php'; ?>
 	<?php require_once '_partials/partners.php'; ?>
 	<?php require_once '_partials/form.php'; ?>
 	<?php require_once '_partials/newsletter.php'; ?>

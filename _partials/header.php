@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./css/splide-core.min.css">
 	<link rel="stylesheet" href="./css/splide.min.css">
 	<link rel="stylesheet" href="./css/splide-default.min.css">
+	<link rel="stylesheet" href="./css/simple-lightbox.min.css">
 	<link rel="stylesheet" href="./css/main.min.css">
 </head>
 
