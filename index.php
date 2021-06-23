@@ -11,14 +11,18 @@
 			<div class="home-hero-white-bars-one"></div>
 			<div class="home-hero-white-bars-two"></div>
 			<div class="home-hero-white-bars-three"></div>
-			<a class="home-hero-main-cta" href="#">Button text</a>
+			<div class="home-hero-cta-wrapper">
+				<a class="home-hero-main-cta" href="#">Button text</a>
+			</div>
 		</div>
-	</div>
-	<div class="scroll-down-element">
-		<a href="#">
-			<img src="img/scroll-down-button.svg" alt="Scroll down button">
-		</a>
-		<img class="line" src="img/line-scrolldown-element.svg" alt="Scroll down element">
+		<div class="scroll-down-element">
+			<div class="scroll-down-element-content">
+				<a href="#">
+					<img src="img/scroll-down-button.svg" alt="Scroll down button">
+				</a>
+				<img class="line" src="img/line-scrolldown-element.svg" alt="Scroll down element">
+			</div>
+		</div>
 	</div>
 </section>
 
