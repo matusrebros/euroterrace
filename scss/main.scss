@@ -1776,7 +1776,7 @@ footer {
 
             strong {
                 color: rgba(0, 0, 0, 0.2);
-                font-size: 5em;
+                font-size: 5rem;
                 margin-right: 1rem;
                 font-weight: $medium-font;
             }
@@ -2275,7 +2275,7 @@ footer {
 
 .main-novinky {
     width: 100%;
-    max-width: 95rem;
+    max-width: 100rem;
     margin: 0 auto;
     margin-top: 9.0634rem;
 
@@ -2760,19 +2760,19 @@ footer {
 
     .buttons-wrapper {
         position: absolute;
-        bottom: -45px;
         right: 0;
         display: flex;
         justify-content: flex-end;
+		bottom: -38px;
 
         a {
-            width: 102px;
-            height: 102px;
+            width: 90px;
+            height: 90px;
+            margin: 0 8px;
             background-color: $primary-color;
             transition: all .2s ease-in-out;
             display: block;
             position: relative;
-            margin: 0 16px;
 
             img {
                 width: 100%;
@@ -2839,6 +2839,7 @@ footer {
             margin: 3.5rem 0;
             font-size: 1.25rem;
             line-height: 1.75rem;
+            max-width: 25rem;
         }
 
         a {
@@ -2865,6 +2866,7 @@ footer {
         width: 100%;
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
         max-width: 90rem;
         margin: 0 auto;
     }
@@ -3065,4 +3067,24 @@ footer {
 
 .offer-flats {
     margin-top: 18rem;
+    padding-top: 0;
+}
+
+#mapa-euroterrace {
+    padding-top: 10rem;
+    margin-top: -10rem;
+    max-width: 90rem;
+}
+
+#podmienkyFinancovania {
+    padding-top: 12rem;
+    margin-top: -12rem;
+}
+
+@media screen and (max-width: 1850px) {
+    .financing-container img {
+        max-width: 50rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }

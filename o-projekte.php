@@ -15,7 +15,7 @@
 		</div>
 		<div class="scroll-down-element">
 			<div class="scroll-down-element-content">
-				<a href="#">
+				<a href="#mapa-euroterrace">
 					<span>Scroll Down</span>
 					<img class="scroll-down-icon" src="img/scroll-icon.svg" alt="Scroll down button">
 				</a>

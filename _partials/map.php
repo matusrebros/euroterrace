@@ -1,4 +1,4 @@
-<section class="map-section">
+<section id="mapa-euroterrace" class="map-section">
 	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1482.944" height="649.669" viewBox="0 0 1482.944 649.669">
 	  <defs>
 	    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1482 402">
