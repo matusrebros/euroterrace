@@ -39,7 +39,7 @@
 						<td>82,68 m2</td>
 						<td>82,68 m2</td>
 						<td>129 368 €</td>
-						<td class="free-color">Voľné</td>
+						<td class="reserved-color">Rezervované</td>
 						<td>
 							<a href="#">Pozrieť tu</a>
 						</td>
@@ -65,7 +65,7 @@
 						<td>82,68 m2</td>
 						<td>82,68 m2</td>
 						<td>129 368 €</td>
-						<td class="free-color">Voľné</td>
+						<td class="reserved-color">Rezervované</td>
 						<td>
 							<a href="#">Pozrieť tu</a>
 						</td>
@@ -92,12 +92,12 @@
 		<div class="list-of-flats-extension-content">
 			<div class="garaze">
 				<h2>Garáže</h2>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+				<p>Parkovanie sme zabezpečili dostatočným počtom parkovacích miest s elektronabíjačkami.</p>
 				<a href="#">Garáže</a>
 			</div>
 			<div class="pivnice">
 				<h2>Pivničné kobky</h2>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+				<p>Pivničná kobka je štandardne pridelená každému bytu. Počet pivničných kobiek: 80 ks.</p>
 				<a href="#">Pivničné kobky</a>
 			</div>
 		</div>

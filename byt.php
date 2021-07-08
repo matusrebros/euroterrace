@@ -8,7 +8,7 @@
 			<h1>4 - izbový byt</h1>
 			<div class="row">
 				<small>číslo A1 - 5.1 </small>
-				<a href="#">Stiahnúť pôdorys</a>
+				<a class="download-button" href="#">Stiahnúť pôdorys</a>
 			</div>
 
 			<div class="table">
@@ -48,7 +48,7 @@
 			<div class="tag">
 				<div class="availability">
 					<small>Dostupnosť</small>
-					<strong>Voľný</strong>
+					<strong class="free-color">Voľný</strong>
 				</div>
 				<div class="price">
 					<small>Cena</small>

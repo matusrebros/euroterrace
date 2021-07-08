@@ -1,29 +1,5 @@
-<?php header('Content-Type: text/html; charset=utf-8'); ?>
-
-<!DOCTYPE html>
-<html lang="sk">
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Euroterrace</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-	<link rel="stylesheet" href="./css/nouislider.min.css">
-	<link rel="stylesheet" href="./css/splide-core.min.css">
-	<link rel="stylesheet" href="./css/splide.min.css">
-	<link rel="stylesheet" href="./css/splide-default.min.css">
-	<link rel="stylesheet" href="./css/simple-lightbox.min.css">
-	<link rel="stylesheet" href="./css/main.min.css">
-</head>
-
-<body>
-
-	<header class="main-header">
+<?php require_once '_partials/head.php'; ?>
+<header class="main-header">
 		<div class="main-header-content">
 			<a class="main-header-logo" href="/">
 				<img src="./img/logo.svg" alt="Euro Terrace Logo">
@@ -31,22 +7,22 @@
 			<nav class="main-header-nav">
 				<ul>
 					<li>
-						<a href="#">O projekte</a>
+						<a href="/o-projekte.php">O projekte</a>
 					</li>
 					<li>
-						<a href="#">Ponuka bytov</a>
+						<a href="/ponuka-bytov.php">Ponuka bytov</a>
 					</li>
 					<li>
 						<a href="#">Obchodné priestory</a>
 					</li>
 					<li>
-						<a href="#">Financovanie</a>
+						<a href="/financovanie.php">Financovanie</a>
 					</li>
 					<li>
-						<a href="#">Galéria</a>
+						<a href="/galeria.php">Galéria</a>
 					</li>
 					<li>
-						<a href="#">Kontakt</a>
+						<a href="/kontakt.php">Kontakt</a>
 					</li>
 				</ul>
 			</nav>
@@ -56,3 +32,4 @@
 			</a>
 		</div>
 	</header>
+

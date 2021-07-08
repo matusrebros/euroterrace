@@ -76,8 +76,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			new Splide('#splide', {
 				type: 'loop',
 				padding: {
-					right: '10rem',
-					left: '10rem',
+					right: '17.625rem',
+					left: '17.625rem',
 				},
 			}).mount();
 		}

@@ -4,7 +4,7 @@
 		<h1>Novinky</h1>
 		<div class="main-novinky-container">
 			<article>
-				<a href="#">
+				<a href="/clanok.php">
 					<div class="img-wrapper">
 						<img src="img/article-thumbnail.jpg" alt="Thumbnail">
 					</div>
@@ -14,7 +14,7 @@
 				</a>
 			</article>
 			<article>
-				<a href="#">
+				<a href="/clanok.php">
 					<div class="img-wrapper">
 						<img src="img/article-thumbnail.jpg" alt="Thumbnail">
 					</div>
@@ -24,7 +24,7 @@
 				</a>
 			</article>
 			<article>
-				<a href="#">
+				<a href="/clanok.php">
 					<div class="img-wrapper">
 						<img src="img/article-thumbnail.jpg" alt="Thumbnail">
 					</div>
@@ -34,7 +34,7 @@
 				</a>
 			</article>
 			<article>
-				<a href="#">
+				<a href="/clanok.php">
 					<div class="img-wrapper">
 						<img src="img/article-thumbnail.jpg" alt="Thumbnail">
 					</div>
@@ -44,7 +44,7 @@
 				</a>
 			</article>
 			<article>
-				<a href="#">
+				<a href="/clanok.php">
 					<div class="img-wrapper">
 						<img src="img/article-thumbnail.jpg" alt="Thumbnail">
 					</div>
@@ -54,7 +54,7 @@
 				</a>
 			</article>
 			<article>
-				<a href="#">
+				<a href="/clanok.php">
 					<div class="img-wrapper">
 						<img src="img/article-thumbnail.jpg" alt="Thumbnail">
 					</div>

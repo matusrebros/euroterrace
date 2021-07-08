@@ -1,11 +1,9 @@
 <?php require_once '_partials/header.php'; ?>
 
-<section class="home-introduction">
+<section class="home-introduction offer-flats">
 	<div class="home-introduction-content">
-		<h2>Sed ut perspiciatis unde omnis<br>iste natus error sit.</h2>
-		<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by
-			fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab
-			quick-jived waltz.</p>
+		<h2>Komfortné bývanie<br>s inovatívnymi technológiami</h2>
+		<p>Euroterrace vyniká svojou modernou architektúrou a kladie vysoký dôraz na životné prostredie. Veľkú časť komplexu tvorí zeleň, ktorá pomáha zlepšeniu ovzdušia a mikroklímy v celej lokalite. Vyberte si aj Vy Váš vysnívaný byt.</p>
 	</div>
 </section>
 
@@ -20,72 +18,71 @@
 	</div>
 	<div class="home-standards-content">
 		<div class="home-standards-wrapper">
-			<h3>Štandardy vybavenia EuroTerrace.</h3>
+			<h3>Štandardy bytov</h3>
 			<div class="home-standards-container">
-				<a href="#">
-					Zistiť viac
-					<img src="img/button-arrow.svg" alt="Button arrow">
-				</a>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+				<p>Zárukou komplexu je použitie tých najkvalitnejších materiálov zaručujúcich neodmysliteľný komfort a tie najnovšie technológie pre zdravé a komfortné bývanie.</p>
 			</div>
 		</div>
 	</div>
 	<div class="home-standards-icons">
-		<fi class="home-standards-icons-container">
-			<div class="home-standards-icons-top">
-				<div class="home-standards-icon">
+		<div class="home-standards-icons-container offer-standards-container">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Sanita</span>
+					<p>Každý byt má individuálne vybavenie kúpeľní a WC miestností. Vane, sprchové vaničky, umývadla a WC sanita je v zmysle špecifikácie štandardov, alebo v individuálnom výbere.</p>
 				</div>
-				<div class="home-standards-icon">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Dvere</span>
+					<p>Vstupné dvere sú bezpečnostné, protipožiarne, osadené v oceľovej zárubni, panoramatický priezor, kovanie guľa – kľučka. Interiérové dvere sú plné hladké s fóliovou povrchovou úpravou a dózickým zámkom, osadené v obložkovej zárubni, kovanie kľučka – kľučka.</p>
 				</div>
-				<div class="home-standards-icon">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Podlahy a obkladye</span>
+					<p>V obytných miestnostiach je laminátová podlaha, farba podľa vzorkovníka. Obvodové lišty sú v príslušnej alebo bielej farbe. V sociálnych miestnostiach je dlažba a obklad. Rozsah obkladu podľa platnej projektovej dokumentácie. Na balkónoch je mrazuvzdorná dlažba.</p>
 				</div>
-				<div class="home-standards-icon invisible-icon">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Rekuperačná jednotka</span>
+					<p>Každý byt má vlastnú lokálnu a nastaviteľnú rekuperačnú jednotku, cez ktorú sa distribuuje čistý vzduch do všetkých miestností a rovnako odvádza znehodnotený.</p>
 				</div>
-			</div>
-			<div class="home-standards-icons-bottom">
-				<div class="home-standards-icon invisible-icon">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Drevohliníkové okná</span>
+					<p>Okenné konštrukcie sú z drevohliníkového profilu. Okenné výplne sú zasklené izolačným trojsklom. Vonkajší parapet je plechový vo farbe rámu okna, vnútorný je z drevenej smrekovej škárovky s povrchovou úpravou matného laku. Každé okno má predprípravu na exteriérové žalúzie.</p>
 				</div>
-				<div class="home-standards-icon">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Balkón, terasa alebo predzáhradka</span>
+					<p>Priestor dvora je riešený ako zelená pobytová plocha, oplotená s prístupom z obidvoch peších komunikácií susediacich ulíc. V rezidenčnom vnútrobloku sú ohradené predzáhradky prislúchajúce výlučne k bytom na 2.NP. Záhradky sú oplotené nízkou konštrukciou plotu a živým plotom.</p>
 				</div>
-				<div class="home-standards-icon">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Parkovacie miesto a garáž</span>
+					<p>Každé parkovacie miesto je identifikovateľné vlastným označením. Z podlaží hromadnej garáže je priamy vstup do jednotlivých schodísk a výťahov bytových domov. Vjazdy a výjazdy sú chránené systémom ovládania rámp a bezpečnostných roliet.</p>
 				</div>
-				<div class="home-standards-icon">
+				<div class="home-standards-icon offer-standards">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Pivničná kobka</span>
+					<p>Kobky sú oddelené murovanými priečkami s uzamykateľnými lamelovými dverami. Kobky sú situované v uzavretej kobkovej miestnosti na -1. až -3. podlaží.</p>
 				</div>
-			</div>
-		</fi>
+</div>
 	</div>
 </section>
 

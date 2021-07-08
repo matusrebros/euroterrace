@@ -3,22 +3,22 @@
 <section class="home-hero">
 	<div class="home-hero-container">
 		<div class="home-hero-content">
-			<h1>The quick, brown<br>fox jumps over.</h1>
-			<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced
-				by fox whelps. Bawds jog, flick quartz, vex nymphs.</p>
+			<h1>Nadčasové byty s prémiovým<br>štandardom v Žiline</h1>
+			<p>Prinášame výsnívané bývanie v unikátnej lokalite s mestskými vymoženosťami.</p>
 		</div>
 		<div class="home-hero-white-bars">
 			<div class="home-hero-white-bars-one"></div>
 			<div class="home-hero-white-bars-two"></div>
 			<div class="home-hero-white-bars-three"></div>
 			<div class="home-hero-cta-wrapper">
-				<a class="home-hero-main-cta" href="#">Button text</a>
+				<a class="home-hero-main-cta" href="#">Rezervovať</a>
 			</div>
 		</div>
 		<div class="scroll-down-element">
 			<div class="scroll-down-element-content">
-				<a href="#">
-					<img src="img/scroll-down-button.svg" alt="Scroll down button">
+				<a href="#home-introduction">
+					<span>Scroll Down</span>
+					<img class="scroll-down-icon" src="img/scroll-icon.svg" alt="Scroll down button">
 				</a>
 				<img class="line" src="img/line-scrolldown-element.svg" alt="Scroll down element">
 			</div>
@@ -26,12 +26,10 @@
 	</div>
 </section>
 
-<section class="home-introduction">
+<section id="home-introduction" class="home-introduction">
 	<div class="home-introduction-content">
-		<h2>Sed ut perspiciatis unde omnis<br>iste natus error sit.</h2>
-		<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by
-			fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab
-			quick-jived waltz.</p>
+		<h2>Komfortné bývanie<br>s inovatívnymi technológiami</h2>
+		<p>Euroterrace vyniká svojou modernou architektúrou a kladie vysoký dôraz na životné prostredie. Veľkú časť komplexu tvorí zeleň, ktorá pomáha zlepšeniu ovzdušia a mikroklímy v celej lokalite. Vyberte si aj Vy Váš vysnívaný byt.</p>
 	</div>
 </section>
 
@@ -127,8 +125,7 @@
 					Zistiť viac
 					<img src="./img/button-arrow.svg" alt="Button arrow">
 				</a>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+				<p>Komplex ponúka 80 bytových jednotiek s inovatívnymi technológiami, ktoré vytvárajú nezameniteľný komfort pre vaše bývanie.</p>
 			</div>
 		</div>
 	</div>
@@ -139,25 +136,25 @@
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Sanita</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Dvere</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Podlahy a obklady</span>
 				</div>
 				<div class="home-standards-icon invisible-icon">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Rekuperačna jednotka</span>
 				</div>
 			</div>
 			<div class="home-standards-icons-bottom">
@@ -165,25 +162,25 @@
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Rekuperačna jednotka</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Rekuperačna jednotka</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Drevohliníkové okná</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
 						<img src="//" alt="Icon">
 					</div>
-					<span>Sed ut perspiciatis unde omnis iste</span>
+					<span>Balkón, terasa alebo predzáhradka</span>
 				</div>
 			</div>
 		</fi>
@@ -194,23 +191,23 @@
 	<div class="home-time-line-content">
 		<div class="timeline-content">
 			<div class="point">
-				<strong>Rezervácie</strong>
+				<strong>Začiatok výstavby</strong>
 				<span>2021</span>
-				<small>4. kvartál</small>
-				<div class="small-dot"></div>
-				<div class="big-dot"></div>
-			</div>
-			<div class="point">
-				<strong>Výstavba</strong>
-				<span>2022</span>
-				<small>1. kvartál</small>
-				<div class="small-dot"></div>
-				<div class="big-dot"></div>
-			</div>
-			<div class="point">
-				<strong>Kolaudácia</strong>
-				<span>2022</span>
 				<small>3. kvartál</small>
+				<div class="small-dot"></div>
+				<div class="big-dot"></div>
+			</div>
+			<div class="point">
+				<strong>Dokončenie stavby</strong>
+				<span>2023</span>
+				<small>3. kvartál</small>
+				<div class="small-dot"></div>
+				<div class="big-dot"></div>
+			</div>
+			<div class="point">
+				<strong>Kolaudácia bytov a odovzdanie</strong>
+				<span>2023</span>
+				<small>4. kvartál</small>
 				<div class="small-dot"></div>
 				<div class="big-dot"></div>
 			</div>

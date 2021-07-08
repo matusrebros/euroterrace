@@ -1,31 +1,51 @@
-<?php require_once '_partials/header.php'; ?>
+<?php require_once '_partials/header.php';?>
 
 <section class="financing">
-	<div class="financing hero">
-		<h1>Sed ut perspiciatis unde omnis iste.</h1>
-		<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.</p>
-		<a href="#">Podmienky financovania</a>
-	</div>
-	<div class="financing-content">
-		<h2>Podmienky financovania</h2>
-		<div class="conditions">
-			<div class="consition">
-				<h3><strong>1. </strong>Rezervačná zmluva</h3>
-				<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog.</p>
+		<div class="financing-container">
+			<div class="financing-content">
+				<div class="financing-hero-content">
+					<h1>Financovanie</h1>
+					<p>Tešíme sa, že financujúcou bankou projektu EUROTERRACE je Slovenská sporiteľňa. Najväčšia komerčná banka na Slovensku s dlhoročnou praxou vo svojom segmente predstavuje ideálneho partnera pre tento projekt.</p>
+					<a href="#podmienkyFinancovania">Podmienky financovania</a>
+				</div>
 			</div>
-			<div class="consition">
-				<h3><strong>2. </strong>Zmluva o budúcej zmluve</h3>
-				<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog.</p>
+			<div class="financing-hero-bars">
+				<div class="financing-hero-bars-one"></div>
+				<div class="financing-hero-bars-two"></div>
+				<div class="financing-hero-bars-three"></div>
 			</div>
-			<div class="consition">
-				<h3><strong>3. </strong>Kúpna zmluva</h3>
-				<p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog.</p>
+			<img src="../img/financing-img.png" alt="Euroterrace">
+		</div>
+	</section>
+
+	<section id="podmienkyFinancovania" class="podmienky-financovania">
+		<div class="podmienky-financovania-content">
+			<h2>Podmineky financovania</h2>
+			<div class="card">
+				<h3>
+					<strong>1.</strong>
+					<span>Rezervačná zmluva</span>
+				</h3>
+				<p>Poplatok vo výške 5.000€, do 5 dní odo dňa podpisu.</p>
+			</div>
+			<div class="card">
+				<h3>
+					<strong>2.</strong>
+					<span>Zmluva o budúcej zmluve</span>
+				</h3>
+				<p>Doplatok do 15% z kúpnej ceny, do 60 dní odo dňa podpisu Rezervačnej zmluvy.</p>
+			</div>
+			<div class="card">
+				<h3>
+					<strong>3.</strong>
+					<span>Kúpna zmluva</spa>
+				</h3>
+				<p>Doplatok 85% z kúpnej ceny, po kolaudácii.</p>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<?php require_once '_partials/partners.php'; ?>
-<?php require_once '_partials/newsletter.php'; ?>
-<?php require_once '_partials/footer.php'; ?>
-<?php require_once '_partials/footer.php'; ?>
+<?php require_once '_partials/partners.php';?>
+<?php require_once '_partials/newsletter.php';?>
+<?php require_once '_partials/footer.php';?>
+<?php require_once '_partials/footer.php';?>
