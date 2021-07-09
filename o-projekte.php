@@ -81,7 +81,7 @@
 			<span>Dostatok parkovania</span>
 		</div>
 		<div class="nearby-terrace-icon">
-			<div class="img-wrapper"><img src="img/007-team.svg" alt="Euroterrace"></div>
+			<div class="img-wrapper"><img src="img/icons/001-store.svg" alt="Euroterrace"></div>
 			<span>Veľké pivničné kobky</span>
 		</div>
 	</div>
@@ -151,7 +151,7 @@
 				</div>
 				<div class="home-about-icon">
 					<div class="home-about-icon-wrapper">
-						<img src="./img/icons/001-store.svg" alt="Euroterrace Icons">
+						<img src="img/icons/001-store.svg" alt="Euroterrace Icons">
 					</div>
 					<span>Veľké pivničné kobky</span>
 				</div>

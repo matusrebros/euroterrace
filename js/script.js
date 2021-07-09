@@ -155,4 +155,12 @@ document.addEventListener('DOMContentLoaded', function () {
 		var lightbox2 = new SimpleLightbox('#galleryexterior a');
 	}
 
+	//MABILE NAV MENU
+	const hamburger = document.getElementsByClassName('hamburger')[0];
+
+	hamburger.onclick = function() {
+		hamburger.classList.toggle("is-active");
+		document.getElementsByClassName
+	};
+
 });

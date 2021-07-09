@@ -134,25 +134,25 @@
 			<div class="home-standards-icons-top">
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/sanita.svg" alt="Icon">
 					</div>
 					<span>Sanita</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/dvere.svg" alt="Icon">
 					</div>
 					<span>Dvere</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/podlahy.svg" alt="Icon">
 					</div>
 					<span>Podlahy a obklady</span>
 				</div>
 				<div class="home-standards-icon invisible-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/rekuperacna_jednotka.svg" alt="Icon">
 					</div>
 					<span>Rekuperačna jednotka</span>
 				</div>
@@ -160,25 +160,25 @@
 			<div class="home-standards-icons-bottom">
 				<div class="home-standards-icon invisible-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/rekuperacna_jednotka.svg" alt="Icon">
 					</div>
 					<span>Rekuperačna jednotka</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/rekuperacna_jednotka.svg" alt="Icon">
 					</div>
 					<span>Rekuperačna jednotka</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/drevohlinikove_okna.svg" alt="Icon">
 					</div>
 					<span>Drevohliníkové okná</span>
 				</div>
 				<div class="home-standards-icon">
 					<div class="home-standards-icon-wrapper">
-						<img src="//" alt="Icon">
+						<img src="img/balkon.svg" alt="Icon">
 					</div>
 					<span>Balkón, terasa alebo predzáhradka</span>
 				</div>
