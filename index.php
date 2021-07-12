@@ -202,6 +202,7 @@
 				<small>3. kvartál</small>
 				<div class="small-dot"></div>
 				<div class="big-dot"></div>
+				<div class="mobile-line"></div>
 			</div>
 			<div class="point">
 				<strong>Dokončenie stavby</strong>
@@ -209,6 +210,7 @@
 				<small>3. kvartál</small>
 				<div class="small-dot"></div>
 				<div class="big-dot"></div>
+				<div class="mobile-line"></div>
 			</div>
 			<div class="point">
 				<strong>Kolaudácia bytov a odovzdanie</strong>

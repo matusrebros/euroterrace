@@ -79,6 +79,14 @@ document.addEventListener('DOMContentLoaded', function () {
 					right: '17.625rem',
 					left: '17.625rem',
 				},
+				breakpoints: {
+					1250: {
+						padding: {
+							right: '2rem',
+							left: '2rem',
+						},
+					},
+				}
 			}).mount();
 		}
 	}
