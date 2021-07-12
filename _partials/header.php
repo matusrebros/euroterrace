@@ -41,22 +41,22 @@
 	<div class="content">
 		<ul>
 			<li>
-				<a href="#">O projekte</a>
+				<a href="/o-projekte.php">O projekte</a>
 			</li>
 			<li>
-				<a href="#">Ponuka bytov</a>
+				<a href="/ponuka-bytov.php">Ponuka bytov</a>
 			</li>
 			<li>
 				<a href="#">Obchodné pristory</a>
 			</li>
 			<li>
-				<a href="#">Financovanie</a>
+				<a href="/financovanie.php">Financovanie</a>
 			</li>
 			<li>
-				<a href="#">Galéria</a>
+				<a href="/galeria.php">Galéria</a>
 			</li>
 			<li>
-				<a href="#">Kontakt</a>
+				<a href="/kontakt.php">Kontakt</a>
 			</li>
 		</ul>
 		<a href="#" class="contact-button">
