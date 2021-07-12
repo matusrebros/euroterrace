@@ -30,10 +30,38 @@
 			<img src="./img/cta-phone.svg" alt="CTA phone icon">
 			+421 345 67 89 10
 		</a>
-		<button class="hamburger hamburger--squeeze" type="button">
+		<button data-before="menu" class="hamburger hamburger--squeeze" type="button">
 			<span class="hamburger-box">
 				<span class="hamburger-inner"></span>
 			</span>
 		</button>
 	</div>
 </header>
+<nav id="mobile-nav" class="mobile-nav">
+	<div class="content">
+		<ul>
+			<li>
+				<a href="#">O projekte</a>
+			</li>
+			<li>
+				<a href="#">Ponuka bytov</a>
+			</li>
+			<li>
+				<a href="#">Obchodné pristory</a>
+			</li>
+			<li>
+				<a href="#">Financovanie</a>
+			</li>
+			<li>
+				<a href="#">Galéria</a>
+			</li>
+			<li>
+				<a href="#">Kontakt</a>
+			</li>
+		</ul>
+		<a href="#" class="contact-button">
+			<img src="./img/cta-phone.svg" alt="Euroterrace">
+			+421 345 67 89 10
+		</a>
+	</div>
+</nav>

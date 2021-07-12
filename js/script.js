@@ -155,12 +155,20 @@ document.addEventListener('DOMContentLoaded', function () {
 		var lightbox2 = new SimpleLightbox('#galleryexterior a');
 	}
 
-	//MABILE NAV MENU
+	//MOBILE NAV MENU
 	const hamburger = document.getElementsByClassName('hamburger')[0];
+	const mobileNav = document.getElementById('mobile-nav');
 
 	hamburger.onclick = function() {
 		hamburger.classList.toggle("is-active");
-		document.getElementsByClassName
+		mobileNav.classList.toggle("active");
+		// hamburger.setAttribute("data-before", "zavrieť");
+
+		if (hamburger.getAttribute("data-before") === "menu") {
+			hamburger.setAttribute("data-before", "zavrieť");
+		} else {
+			hamburger.setAttribute("data-before", "menu");
+		}
 	};
 
 });
