@@ -11,7 +11,7 @@
 					<span>Scroll Down</span>
 					<img class="scroll-down-icon" src="img/scroll-icon.svg" alt="Scroll down button">
 				</a>
-		</div>
+			</div>
 		<div class="home-hero-white-bars">
 			<div class="home-hero-white-bars-one"></div>
 			<div class="home-hero-white-bars-two"></div>

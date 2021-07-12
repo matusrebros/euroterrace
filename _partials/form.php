@@ -28,7 +28,7 @@
 				<label class="gdpr">
 					<input type="checkbox" name="gdpr">
 					<div class="main-form-gdpr-controller"></div>
-					Súhlasím so spracovaním <a href="#"> osobných údajov</a>
+					<span>Súhlasím so spracovaním <a href="#"> osobných údajov</a></span>
 				</label>
 				<button type="submit">Odoslať</button>
 			</form>

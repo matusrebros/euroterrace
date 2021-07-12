@@ -4,6 +4,13 @@
 		<div class="home-hero-content">
 			<h1>Vysnívaná lokalita a<br>kvalitné mestské bývanie.</h1>
 			<p>S nami ušetríte čas, všetko potrebné máte hneď po ruke. Využite služby a obchody v okolí Vášho nového doma.</p>
+			<a class="mobile-element mobile-hero-button" href="/ponuka-bytov.php">Rezervovať</a>
+			<div class="mobile-scroll-down-element-content mobile-element">
+				<a href="#home-introduction">
+					<span>Scroll Down</span>
+					<img class="scroll-down-icon" src="img/scroll-icon.svg" alt="Scroll down button">
+				</a>
+			</div>
 		</div>
 		<div class="home-hero-white-bars">
 			<div class="home-hero-white-bars-one"></div>
