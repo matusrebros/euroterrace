@@ -9,9 +9,9 @@
 				<p>Tešíme sa na spoločné stretnutie, kde Vám zodpovieme Vaše otázky ohľadom bývania.</p>
 			</div>
 			<form>
-				<input type="text" placeholder="Meno a priezvisko*" required>
-				<input type="email" placeholder="Emailová adresa*" required>
-				<input type="number" placeholder="Telefonné číslo*" required>
+				<input type="text" placeholder="Meno a priezvisko*" autocomplete="name" required>
+				<input type="email" placeholder="Emailová adresa*" autocomplete="email" required>
+				<input type="number" placeholder="Telefonné číslo*" autocomplete="tel" required>
 				<div class="main-form-checkboxes">
 					<label class="byt-form">
 						<input type="checkbox" name="zaujem-o-byt">

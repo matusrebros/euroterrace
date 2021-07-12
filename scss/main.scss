@@ -6003,6 +6003,20 @@ footer {
     .home-hero-container {
         justify-content: flex-start;
     }
+
+
+    .filters-form-submit {
+        /* margin-left: auto; */
+        margin-left: unset;
+        margin: 7rem auto 0 auto;
+    }
+
+    .home-about a {
+        width: 100%;
+        max-width: 30rem;
+        text-align: center;
+    }
+
 }
 
 #mapa-euroterrace {
@@ -6060,4 +6074,20 @@ textarea {
     .home-hero-white-bars {
         display: none;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .mobile-scroll-down-element-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 600px) {
+    .home-hero-container {
+        justify-content: center;
+    }
+}
+
+.mobile-nav .content {
+    justify-content: flex-start;
 }

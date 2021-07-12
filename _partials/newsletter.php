@@ -6,7 +6,7 @@
 			</div>
 			<form>
 				<div class="input-wrapper">
-					<input type="email" placeholder="Emailová adresa">
+					<input type="email" placeholder="Emailová adresa" autocomplete="email">
 					<button type="submit">
 						<img src="img/submit-icon.svg" alt="Submit icon">
 					</button>
