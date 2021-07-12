@@ -5,13 +5,19 @@
 		<div class="home-hero-content">
 			<h1>Nadčasové byty s prémiovým<br>štandardom v Žiline</h1>
 			<p>Prinášame výsnívané bývanie v unikátnej lokalite s mestskými vymoženosťami.</p>
+			<a class="mobile-element mobile-hero-button" href="/ponuka-bytov.php">Rezervovať</a>
+			<div class="mobile-scroll-down-element-content mobile-element">
+				<a href="#home-introduction">
+					<span>Scroll Down</span>
+					<img class="scroll-down-icon" src="img/scroll-icon.svg" alt="Scroll down button">
+				</a>
 		</div>
 		<div class="home-hero-white-bars">
 			<div class="home-hero-white-bars-one"></div>
 			<div class="home-hero-white-bars-two"></div>
 			<div class="home-hero-white-bars-three"></div>
 			<div class="home-hero-cta-wrapper">
-				<a class="home-hero-main-cta" href="#">Rezervovať</a>
+				<a class="home-hero-main-cta" href="/ponuka-bytov.php">Rezervovať</a>
 			</div>
 		</div>
 		<div class="scroll-down-element">
