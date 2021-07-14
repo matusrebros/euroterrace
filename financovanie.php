@@ -20,7 +20,7 @@
 
 	<section id="podmienkyFinancovania" class="podmienky-financovania">
 		<div class="podmienky-financovania-content">
-			<h2>Podmineky financovania</h2>
+			<h2>Podmienky financovania</h2>
 			<div class="card">
 				<h3>
 					<strong>1.</strong>
