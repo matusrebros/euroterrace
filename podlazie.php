@@ -37,7 +37,13 @@
 			</div>
 		</div>
 
-		<div class="podlazie-floor-plan">
+		<section class="floor-plan">
+			<div class="floor-plan-container">
+				<img src="img/BYT_Vizualizacia.png" alt="Euroterrace">
+			</div>
+		</section>
+
+		<!-- <div class="podlazie-floor-plan">
 			<img src="img/podorys.jpg" alt="Podorys">
 
 			<div class="podlazie-floor-plan-table">
@@ -98,7 +104,7 @@
 				</div>
 				<a href="#">Detail bytu</a>
 			</div>
-		</div>
+		</div> -->
 	</section>
 
 	<?php require_once '_partials/newsletter.php';?>

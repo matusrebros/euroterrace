@@ -10,22 +10,22 @@
 				<nav id="sitemap-footer-nav">
 					<ul>
 						<li>
-							<a href="#">O projekte</a>
+							<a href="/o-projekte.php">O projekte</a>
 						</li>
 						<li>
-							<a href="#">Financovanie</a>
+							<a href="/financovanie.php">Financovanie</a>
 						</li>
 						<li>
-							<a href="#">Ponuka bytov</a>
+							<a href="/ponukabytov.php">Ponuka bytov</a>
 						</li>
 						<li>
-							<a href="#">Galéria</a>
+							<a href="/galeria.php">Galéria</a>
 						</li>
 						<li>
-							<a href="#">Obchodné priestory</a>
+							<a href="/obchodne-priestory.php">Obchodné priestory</a>
 						</li>
 						<li>
-							<a href="#">Kontakt</a>
+							<a href="/kontakt.php">Kontakt</a>
 						</li>
 					</ul>
 				</nav>
@@ -73,5 +73,5 @@
 			</a>
 		</div>
 	</div>
-	
+
 <?php require_once '_partials/scripts.php' ?>

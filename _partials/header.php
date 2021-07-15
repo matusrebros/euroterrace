@@ -13,7 +13,7 @@
 					<a href="/ponuka-bytov.php">Ponuka bytov</a>
 				</li>
 				<li>
-					<a href="#">Obchodné priestory</a>
+					<a href="/obchodne-priestory.php">Obchodné priestory</a>
 				</li>
 				<li>
 					<a href="/financovanie.php">Financovanie</a>
@@ -27,7 +27,7 @@
 			</ul>
 		</nav>
 		<a class="main-header-cta" href="#">
-			<img src="./img/cta-phone.svg" alt="CTA phone icon">
+			<img src="./img/phone-anim.gif" alt="CTA phone icon">
 			+421 345 67 89 10
 		</a>
 		<button data-before="menu" class="hamburger hamburger--squeeze" type="button">
@@ -47,7 +47,7 @@
 				<a href="/ponuka-bytov.php">Ponuka bytov</a>
 			</li>
 			<li>
-				<a href="#">Obchodné pristory</a>
+				<a href="/obchodne-priestory.php">Obchodné pristory</a>
 			</li>
 			<li>
 				<a href="/financovanie.php">Financovanie</a>

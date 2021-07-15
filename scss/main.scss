@@ -145,7 +145,7 @@ body {
 
         img {
             width: 100%;
-            max-width: 1.3125rem;
+            max-width: 2rem;
             margin-right: 1.5rem;
         }
 
@@ -154,6 +154,16 @@ body {
         &:hover {
             opacity: 0.6;
         }
+    }
+}
+
+@keyframes slidePhone {
+    from {
+        transform: translateY(0rem);
+    }
+
+    to {
+        transform: translateY(0.425rem);
     }
 }
 
@@ -199,12 +209,15 @@ body {
 
             img {
                 max-width: 1.5625rem;
-                transition: all 0.5s ease-in-out;
                 margin-top: 0.5rem;
+                animation-name: slidePhone;
+                animation-duration: 0.5s;
+                animation-direction: alternate-reverse;
+                animation-iteration-count: infinite;
             }
 
             &:hover img {
-                transform: translateY(0.625rem);
+                animation-play-state: paused;
             }
         }
 
@@ -285,21 +298,21 @@ body {
             background: #fff;
             height: 33.333333333333%;
             width: 100%;
-            max-width: 47%;
+			max-width: 47%;
         }
 
         &-two {
             background: #fff;
             height: 33.333333333333%;
             width: 100%;
-            max-width: 61%;
+			max-width: 61%;
         }
 
         &-three {
             background: #fff;
             height: 33.333333333334%;
             width: 100%;
-            max-width: 75%;
+			max-width: 75%;
         }
     }
 }
@@ -1678,6 +1691,25 @@ footer {
             &:hover {
                 color: rgba(#fff, 1);
             }
+        }
+    }
+}
+
+.floor-plan {
+    width: 100%;
+    max-width: 90rem;
+    margin: 5rem auto;
+
+    @media screen and (max-width: 1250px) {
+        width: auto;
+        margin: 3rem 2rem;
+    }
+
+    &-container {
+        width: 100%;
+
+        img {
+            width: 100%;
         }
     }
 }
@@ -6090,4 +6122,122 @@ textarea {
 
 .mobile-nav .content {
     justify-content: flex-start;
+}
+
+.obchodne-priestory {
+    width: 100%;
+    max-width: 50rem;
+    margin: 5rem auto;
+
+    h2 {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: $light-font;
+        padding-top: 3rem;
+
+        strong {
+            font-weight: $medium-font;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: $light-font;
+        margin: 5rem 0;
+    }
+}
+
+#developer-obchodne-priestory {
+    h3 {
+        font-size: 4rem;
+        font-weight: $light-font;
+
+        strong {
+            font-weight: $medium-font;
+        }
+    }
+
+    .home-developer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        h3 {
+            max-width: 500px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 250px;
+        }
+    }
+}
+
+#obchodne-priestory-hero {
+    .financing-hero-content a {
+        padding: 1.5rem 5rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    #obchodne-priestory-hero {
+        .financing-hero-content a {
+            width: 100%;
+            max-width: 30rem;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .financing-content {
+            padding-bottom: 7rem;
+        }
+
+        .financing-hero-bars-two {
+            /* width: 60%; */
+            width: 10%;
+        }
+
+        .financing-hero-bars-three {
+            /* width: 80%; */
+            width: 50%;
+        }
+    }
+
+    .obchodne-priestory h2 {
+        /* font-size: 4rem; */
+        font-size: 3rem;
+    }
+
+    .obchodne-priestory p {
+        /* font-size: 1.25rem; */
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    #developer-obchodne-priestory h3 {
+        /* font-size: 4rem; */
+        font-size: 3rem;
+    }
+
+    #developer-obchodne-priestory .home-developer-container {
+        /* flex-direction: row; */
+        /* justify-content: space-evenly; */
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #developer-obchodne-priestory .home-developer-container img {
+        margin-top: 3rem;
+    }
+
+    .obchodne-priestory {
+        /* width: 100%; */
+        /* margin: 5rem auto; */
+        width: auto;
+        margin: 3rem 2rem;
+    }
+
 }
