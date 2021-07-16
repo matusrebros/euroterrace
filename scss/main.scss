@@ -387,6 +387,11 @@ body {
             &:hover {
                 border: 1px solid $primary-color;
                 background: $primary-color;
+
+                @media screen and (max-width: 600px) {
+                    border: 1px solid #000;
+                    background: transparent;
+                }
             }
         }
 
